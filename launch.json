@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "c:\\Users\\oessa\\Desktop\\fcai cu\\الترم الرابع\\Web technology\\Assignment\\Assignment 2\\Calculator",
+      "environment": [],
+      "program": "c:\\Users\\oessa\\Desktop\\fcai cu\\الترم الرابع\\Web technology\\Assignment\\Assignment 2\\Calculator\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\Program Files\\JetBrains\\CLion 2020.1.2\\bin\\gdb",
+      "externalConsole": true
+    }
+  ]
+}

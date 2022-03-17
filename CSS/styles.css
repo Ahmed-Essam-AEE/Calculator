@@ -1,0 +1,60 @@
+/* first setting default padding and margin to whole page to value 0 */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .calc {
+    width: 300px;
+    padding-bottom: 15px;
+    background-color:black;
+  }
+  .displayBar{
+    width: 100%;
+    height: 40px;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: large;
+    background-color:rgba(96, 111, 126, 0.253);
+    color:white;
+    text-align: left;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  /* for buttons, we need each button to lay horizontaly under each other and give space vertically*/
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  button {
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    background-color:rgba(39, 17, 17, 0.473);
+    color: #fff;
+    margin: 10px;
+  }
+  /* make cursor shape change on buttons */
+  button:hover {
+    cursor:pointer;
+  }
+
+  .operator {
+    background-color:rgb(179, 197, 247);
+    color: #000;
+  }
+
